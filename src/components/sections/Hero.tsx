@@ -8,8 +8,8 @@ export default function Hero() {
                 Built for developers who already know the basics, but don't want to blank in interviews or exams. Get notified when we launch.
             </p>
 
-            <form className="email-form">
-                <input type="email" placeholder="Enter your email" required />
+            <form className="email-form" name="landing-emails" method="POST" data-netlify="true">
+                <input type="email" name={"email"} placeholder="Enter your email" required />
                 <button type="submit">Get early access</button>
             </form>
             <p className="trust-text">

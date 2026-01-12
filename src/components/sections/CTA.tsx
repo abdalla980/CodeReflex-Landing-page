@@ -6,8 +6,8 @@ export default function CTA() {
             <div className="container">
                 <h2 className="cta-title">Ready to stay sharp?</h2>
                 <p className="cta-subtitle">Join the waitlist and be among the first to access CodeReflex when we launch.</p>
-                <form className="email-form">
-                    <input type="email" placeholder="Enter your email" required />
+                <form className="email-form" name="landing-emails" method="POST" data-netlify="true">
+                    <input type="email" name={"email"} placeholder="Enter your email" required />
                     <button type="submit">Get early access</button>
                 </form>
                 <p className="trust-text">We'll notify you when we launch. No spam, unsubscribe anytime.</p>
