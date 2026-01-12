@@ -1,0 +1,37 @@
+.tech-stacks-section {
+    padding: 6rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.tech-stacks-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tech-stack-tag {
+    background: rgba(34, 197, 94, 0.1);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    color: #22c55e;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.tech-stack-tag:hover {
+    background: rgba(34, 197, 94, 0.2);
+    border-color: rgba(34, 197, 94, 0.5);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .tech-stacks-section {
+        padding: 4rem 0;
+    }
+}
+

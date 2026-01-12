@@ -1,0 +1,48 @@
+.heroSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.brandText {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff 0%, #e5e7eb 50%, #22c55e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subBrandText {
+    color: #ffffff;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .brandText {
+        font-size: 2.5rem;
+    }
+    
+    .subBrandText {
+        font-size: 1.1rem;
+    }
+    
+    .heroSec {
+        padding: 4rem 0;
+    }
+}
+
