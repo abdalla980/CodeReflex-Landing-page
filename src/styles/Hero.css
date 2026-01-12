@@ -25,9 +25,10 @@
 }
 
 .subBrandText {
-    color: #ffffff;
-    font-size: 1.25rem;
+    color: #efefef;
+    font-size: 1rem;
     line-height: 1.6;
+    margin-top: 1rem;
     margin-bottom: 3rem;
     max-width: 600px;
 }

@@ -34,10 +34,10 @@ function App() {
         <div className="app">
             <Header />
             <Hero />
+            <HowItWorks />
             <Features />
             <UseCases />
             <TechStacks />
-            <HowItWorks />
             <Pricing />
             <ComingSoon />
             <CTA />

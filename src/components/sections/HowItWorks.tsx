@@ -18,15 +18,25 @@ const steps = [
     },
     {
         number: '4',
-        title: 'Get Better',
-        description: 'We focus on what you struggle with. You get stronger.'
+        title: 'Focus on Weak Spots',
+        description: 'Wrong answers + low confidence = higher frequency. We prioritize what you struggle with.'
+    },
+    {
+        number: '5',
+        title: 'Smart Repetition',
+        description: '1,500+ question variations per stack. No memorization—just genuine understanding that sticks.'
+    },
+    {
+        number: '6',
+        title: 'Stay Sharp Daily',
+        description: 'Quick 5-10 minute sessions. Personalized reminders help you never forget to practice.'
     }
 ];
 
 export default function HowItWorks() {
     return (
         <section id="how-it-works" className="how-it-works-section">
-            <div className="container">
+            <div className="container3">
                 <h2 className="section-title">How it works</h2>
                 <div className="steps-container">
                     {steps.map((step, index) => (

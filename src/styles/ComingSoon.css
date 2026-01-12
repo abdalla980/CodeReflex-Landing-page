@@ -12,18 +12,14 @@
     max-width: 600px;
     margin: 0 auto;
 }
-.container2{
-    max-width: 1200px;
-    width: 40rem;
-    height: 20rem;
+.container2 {
+    max-width: 600px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 2rem;
-    background-color: #22c55e;
-    border-radius: 2rem;
+    padding: 2rem;
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(34, 197, 94, 0.2);
     border-radius: 1.5rem;
-    padding: 2rem;
     transition: all 0.3s ease;
     text-align: center;
 }
@@ -83,8 +79,15 @@
         padding: 3rem 0;
     }
 
+    .container2 {
+        max-width: 90%;
+        padding: 1.5rem;
+        margin: 0 1rem;
+    }
+
     .coming-soon-title {
         font-size: 2rem;
+        margin-bottom: 2rem;
     }
 
     .coming-soon-subtitle {
@@ -107,6 +110,17 @@
 }
 
 @media (max-width: 480px) {
+    .container2 {
+        max-width: 95%;
+        padding: 1.25rem;
+        margin: 0 0.5rem;
+    }
+
+    .coming-soon-title {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+
     .platform-icons {
         gap: 2.5rem;
     }
@@ -114,6 +128,14 @@
     .platform-icon svg {
         width: 45px;
         height: 45px;
+    }
+
+    .platform-icon span {
+        font-size: 1rem;
+    }
+
+    .coming-soon-content {
+        max-width: 100%;
     }
 }
 
