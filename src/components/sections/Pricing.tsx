@@ -14,26 +14,26 @@ const pricingPlans = [
     },
     {
         name: 'Pro',
-        price: '$11',
-        priceNote: 'One-time payment',
+        price: '6$',
+        priceNote: 'monthly',
         features: [
             '✓ 1,000 questions total',
-            '✓ 2 tech stacks',
+            '✓ 3 tech stacks',
             '✓ Weak-spot focus',
-            '✓ Interview mode'
         ],
         featured: true
     },
     {
         name: 'Pro+',
-        price: '$19',
-        priceNote: 'per month',
+        price: '$40',
+        priceNote: 'One time',
         features: [
             '✓ Unlimited questions',
             '✓ All tech stacks',
             '✓ Exam mode',
-            '✓ Smart repetition',
-            '✓ Priority new stacks'
+            '✓ Priority new stacks',
+            '✓ Interview mode'
+
         ],
         featured: false
     }
