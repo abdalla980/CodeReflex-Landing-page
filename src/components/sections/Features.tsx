@@ -14,7 +14,7 @@ const features = [
     {
         icon: '🔄',
         title: 'Smart Repetition',
-        description: '1,500+ questions per stack with variations. No memorization—just genuine understanding that sticks.'
+        description: '1,500+ questions per stack with variations. No memorization, just genuine understanding that sticks.'
     },
     {
         icon: '⚡',

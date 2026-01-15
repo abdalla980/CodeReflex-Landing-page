@@ -24,7 +24,7 @@ const steps = [
     {
         number: '5',
         title: 'Smart Repetition',
-        description: '1,500+ question variations per stack. No memorization—just genuine understanding that sticks.'
+        description: '1,500+ question variations per stack. No memorization, just genuine understanding that sticks.'
     },
     {
         number: '6',
