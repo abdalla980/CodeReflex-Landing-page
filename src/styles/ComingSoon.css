@@ -67,9 +67,12 @@
     color: #16a34a;
     transform: scale(1.1);
 }
-.androidIcon{
-    width: 3rem;
-    height: 2.8rem;
+
+.platform-icon img,
+.platform-icon svg {
+    height: 55px;
+    width: 55px;
+    display: block;
 }
 
 .platform-icon span {
