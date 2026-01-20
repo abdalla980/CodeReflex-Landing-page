@@ -22,7 +22,7 @@ export default function Header() {
         <header className="header">
             <div className="header-container">
                 <a className="logo" href="#" onClick={handleLogoClick}>
-                    CodeReflex
+                    <span className="logo-code">Code</span><span className="logo-reflex">Reflex</span>
                 </a>
                 
                 <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>

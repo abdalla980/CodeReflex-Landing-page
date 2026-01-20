@@ -2,6 +2,7 @@
     padding: 6rem 0;
     position: relative;
     z-index: 1;
+    background: #f9fafb;
 }
 
 .pricing-grid {
@@ -13,8 +14,8 @@
 }
 
 .pricing-card {
-    background: rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(34, 197, 94, 0.2);
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
     border-radius: 1.5rem;
     padding: 2rem;
     text-align: center;
@@ -23,9 +24,10 @@
 }
 
 .pricing-card.featured {
-    border-color: rgba(34, 197, 94, 0.5);
-    background: rgba(34, 197, 94, 0.05);
+    border-color: #3b82f6;
+    background: #ffffff;
     transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
 }
 
 .pricing-badge {
@@ -33,32 +35,33 @@
     top: -12px;
     left: 50%;
     transform: translateX(-50%);
-    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
-    color: #000000;
+    background: #3b82f6;
+    color: #ffffff;
     padding: 0.25rem 1rem;
     border-radius: 1rem;
     font-size: 0.875rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .pricing-card h3 {
-    color: #ffffff;
+    color: #1a1a1a;
     font-size: 1.75rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 
 .pricing-price {
     font-size: 2.5rem;
-    font-weight: 700;
-    color: #22c55e;
+    font-weight: 600;
+    color: #1a1a1a;
     margin-bottom: 0.5rem;
 }
 
 .pricing-price-note {
-    color: #ffffff;
+    color: #6b7280;
     font-size: 0.875rem;
     margin-bottom: 1.5rem;
+    font-weight: 400;
 }
 
 .pricing-features {
@@ -67,16 +70,18 @@
 }
 
 .pricing-features p {
-    color: #ffffff;
+    color: #4b5563;
     margin-bottom: 0.75rem;
     padding-left: 0.5rem;
+    font-weight: 400;
 }
 
 .pricing-note {
     text-align: center;
-    color: #ffffff;
+    color: #9ca3af;
     font-size: 0.875rem;
     font-style: italic;
+    font-weight: 400;
 }
 
 @media (max-width: 768px) {

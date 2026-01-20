@@ -2,7 +2,7 @@ import '../../styles/ComingSoon.css';
 
 export default function ComingSoon() {
     return (
-        <section className="coming-soon-section">
+      <section className="coming-soon-section">
             <div className="container2">
                 <div className="coming-soon-content">
                     <h2 className="coming-soon-title">Soon on Android and iOS</h2>

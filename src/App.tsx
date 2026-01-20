@@ -9,6 +9,7 @@ import HowItWorks from './components/sections/HowItWorks'
 import Pricing from './components/sections/Pricing'
 import ComingSoon from './components/sections/ComingSoon'
 import CTA from './components/sections/CTA'
+import Footer from './components/Footer'
 
 function App() {
     useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
             <Pricing />
             <ComingSoon />
             <CTA />
+            <Footer />
         </div>
     )
 }
