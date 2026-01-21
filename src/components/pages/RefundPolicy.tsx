@@ -1,5 +1,5 @@
 import { Link } from 'wouter';
-import './styles/PolicyPages.css';
+import '../../styles/PolicyPages.css';
 
 export default function RefundPolicy() {
     return (
